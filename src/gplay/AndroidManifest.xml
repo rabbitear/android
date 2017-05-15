@@ -70,6 +70,10 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".ui.activity.FileDisplayActivity"
+            tools:node="remove"/>
+
         <activity-alias
             android:name=".ui.activity.FileDisplayActivity"
             android:targetActivity=".ui.activity.ModifiedFileDisplayActivity"
